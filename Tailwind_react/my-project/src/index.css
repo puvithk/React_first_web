@@ -8,3 +8,28 @@
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
   }
+
+.divy
+{
+  font-size: 1.25rem;
+  border-radius: 5;
+  color: #718096;
+  background-color: black;
+  
+} 
+.purchas
+{
+  font-size: 1.25rem;
+  border-radius: 5;
+  color: #718096;
+  background-color: black;
+  margin-left: 5%;
+}
+.purr
+{
+  background-color: aqua;
+}
+.lear
+{
+  background-color: aqua;
+}
