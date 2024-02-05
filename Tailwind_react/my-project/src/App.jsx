@@ -5,12 +5,13 @@ import './App.css'
 import { BrowserRouter ,Route,Routes } from 'react-router-dom'
 import NavBar from './pages/navBar';
 import Home from './pages/Home'
+import Container from './pages/Container'
 function App() {
   return (
     <>
     <BrowserRouter >
     <Routes>
-      <Route path='/' element={<Home/>}>
+      <Route path='/' element={<Container/>}>
       </Route>
       </Routes>
       </BrowserRouter>

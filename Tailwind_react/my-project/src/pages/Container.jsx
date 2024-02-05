@@ -1,8 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
+import NavBar from "./navBar";
 
 const Container = () => {
   return (
     <>
+    <NavBar></NavBar>
       <div className="imag w-screen h-screen flex justify-center items-center">
         <div className="flex flex-col items-center text-center">
           <div className="flex justify-center items-center p-6 font-serif font-bold ">
